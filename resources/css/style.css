@@ -9,7 +9,6 @@ html, body
 	background-size: cover;
 	background-position: center;
 	background: linear-gradient(rgba(17,17,17,0.9), rgba(17,17,17,0.9)) , url(../images/background.jpg) no-repeat;
-    text-align: center;
 }
 
 /*Navigation Bar*/
@@ -91,7 +90,7 @@ header
 
 .content
 {
-	vertical-align: top;
+    vertical-align: top;
 	max-width: 1400px;
 	min-height: 90vh;
     margin-bottom: -28px;
@@ -135,4 +134,9 @@ Footer
 	color: white;
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
+}
+
+.footer
+{
+    text-align: center;
 }
