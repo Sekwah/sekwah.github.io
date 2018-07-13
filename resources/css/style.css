@@ -1,0 +1,126 @@
+*
+/*Background Format*/
+
+body
+{
+	margin: 0 0;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background: linear-gradient(rgba(17,17,17,0.9), rgba(17,17,17,0.9)) , url(../images/background.jpg) no-repeat;
+}
+
+/*Navigation Bar*/
+
+header
+{
+	height: 80px;
+}
+
+.navBar
+{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.navButtons
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.navButtons li
+{
+	display: inline-block;
+}
+
+.navButtons li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 30px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.navButtons li.active a::after
+{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: white;
+}
+
+.navButtons li.inactive a::after
+{
+	content: "";
+	display: block;
+	width: 0;
+	height: 2px;
+	background: white;
+	transition: width .5s;
+}
+
+.navButtons li.inactive a:hover::after
+{
+	width: 100%;
+	transition: width .5s;
+}
+
+/*Logo*/
+
+.logo img
+{
+	margin-top: 16px;
+	width: 125px;
+	height: auto;
+	float: left;
+}
+
+/*Content*/
+
+.content
+{
+	vertical-align: top;
+	max-width: 1400px;
+	height: 100%;
+	margin: 5px auto;
+	text-align: center;
+	background-color: rgba(17,17,17,0.7);
+}
+
+.missions
+{
+	vertical-align: top;
+	display: inline-block;
+	min-width: 250px;
+	height: auto;
+	min-height: 500px;
+	margin: 5px 5px;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	color: white;
+	background: rgba(17,17,17,1);
+}
+
+.missions p::after
+{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: white;
+}
+
+/* Footer */
+
+Footer
+{
+	text-align: center;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+}
