@@ -4,7 +4,7 @@
 html, body
 {
 	margin: 0 0;
-	min-height: 100%;
+	min-height: 100vh;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
@@ -84,15 +84,16 @@ header
 
 .container
 {
-    height: 100vh;
+    height: 100%;
     margin-bottom: -35px;
 }
 
 .content
 {
+    border: dashed 1px white;
     vertical-align: top;
 	max-width: 1400px;
-	min-height: 90vh;
+	min-height: 88vh;
     margin-bottom: -28px;
 	margin: 5px auto;
 	text-align: center;
@@ -129,7 +130,7 @@ Footer
 {
     display: inline-block;
     bottom: 0;
-    height: 25px;
+    height: 2vh;
     text-align: center;
 	color: white;
 	font-family: "Roboto", sans-serif;
@@ -138,5 +139,21 @@ Footer
 
 .footer
 {
+    text-align: center;
+}
+
+/* Index Content */
+.h1 {
+    padding: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.article {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    color: white;
     text-align: center;
 }
