@@ -51,8 +51,9 @@ header
 
 .navButtons li.active
 {
-text-align: center;
-text-align-last: center;	
+	text-align: center;
+	text-align-last: center;
+	padding: 5px 30px;
 }
 
 .navButtons li.active a::after
