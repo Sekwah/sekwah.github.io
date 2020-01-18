@@ -118,7 +118,7 @@ header
 }
 
 .morse{
-	color:white;
+	color:white!important;
 	text-align: center;
 	border: 2px white;
 }
