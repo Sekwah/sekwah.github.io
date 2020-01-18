@@ -22,6 +22,7 @@ header
 {
 	max-width: 1400px;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .navButtons
@@ -29,6 +30,7 @@ header
 	float: right;
 	list-style: none;
 	margin-top: 30px;
+	text-align: center;
 }
 
 .navButtons li
