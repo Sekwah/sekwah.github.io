@@ -30,7 +30,6 @@ header
 	float: right;
 	list-style: none;
 	margin-top: 30px;
-	text-align: center;
 }
 
 .navButtons li
@@ -44,13 +43,14 @@ header
 	text-align: center;
 }
 
-.navButtons li a
+.navButtons li
 {
 	color: white;
 	text-decoration: none;
 	font-family: "Roboto", sans-serif;
 	padding: 5px 30px;
-	font-size: 15px;
+	font-size: 25px;
+	text-align: center;
 }
 
 .navButtons li.active a::after
