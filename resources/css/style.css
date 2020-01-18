@@ -43,16 +43,14 @@ header
 	text-align-last: center;
 }
 
-a, a:hover, a:active, a:visited
-{
-		color:white;
-		text-align: center;
-}
-
 .navButtons li.active
 {
 	text-align-last: center;
-	text-align: center;
+}
+
+.navButtons li.active a
+{
+	color:white;
 }
 
 .navButtons li.active a::after
