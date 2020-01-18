@@ -93,33 +93,25 @@ header
 
 .content
 {
-    vertical-align: top;
+  vertical-align: top;
 	max-width: 1400px;
 	min-height: 88vh;
-    margin-bottom: -28px;
+  margin-bottom: -28px;
 	margin: 5px auto;
 	text-align: center;
+	color: white;
 	background-color: rgba(17,17,17,0.7);
-    border-radius: 5px 5px;
+  border-radius: 5px 5px;
 }
 
 .video
 {
 	margin: auto;
-	color: white;
-	text-align: center;
 }
 
 .audio
 {
 	margin:auto;
-	color: white;
-}
-
-.morse{
-	color:white!important;
-	text-align: center;
-	border: 2px white;
 }
 
 /* Footer */
