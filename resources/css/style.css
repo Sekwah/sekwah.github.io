@@ -115,6 +115,13 @@ header
 	margin:auto;
 }
 
+.p
+{
+	color:white;
+	font: "Roboto", sans-serif;
+	font-size: 20px;
+}
+
 /* Footer */
 
 Footer
