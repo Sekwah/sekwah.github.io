@@ -16,7 +16,11 @@ html, body
 
 header
 {
-	height: 80px;
+	height:60px;
+	max-width: 1400px;
+	max-height: 100%;
+	margin:auto;
+	position:relative;
 }
 
 /*Logo*/
