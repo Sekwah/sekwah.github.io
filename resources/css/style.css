@@ -44,8 +44,15 @@ header
 	color: white;
 	text-decoration: none;
 	font-family: "Roboto", sans-serif;
+	padding: 5px 30px;
 	font-size: 15px;
 	text-align: center;
+}
+
+.navButtons li.active
+{
+text-align: center;
+text-align-last: center;	
 }
 
 .navButtons li.active a::after
